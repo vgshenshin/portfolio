@@ -18,3 +18,12 @@ closeElem.addEventListener('click', () => {
 overlay.addEventListener('click', () => {
     menu.classList.remove('active');
 });
+
+
+// счетчик для индикаторов скилов
+const percents = document.querySelectorAll('.use__percent-exp'),
+      lines = document.querySelectorAll('.use__scale-exp span');
+
+percents.forEach( (item, i) => {
+    lines[i].style.width = item.innerHTML;
+});
