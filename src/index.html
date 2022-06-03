@@ -239,63 +239,63 @@
                         <img src="icons/skills/html5.svg" alt="html5">
                     </div>
                     <h4 class="title title_fz14 use__item-title">HTML5</h4>
-                    <div class="use__item-descr">
+                    <p class="use__item-descr">
                         Именно он создает каркас вашего сайта или приложения, а пятая версия позволит мне создавать более SEO-оптимизированную структуру вашего продукта
-                    </div>
+                    </p>
                 </div>
                 <div class="use__item">
                     <div class="use__item-img">
                         <img src="icons/skills/css3.svg" alt="css3">
                     </div>
                     <h4 class="title title_fz14 use__item-title">CSS3</h4>
-                    <div class="use__item-descr">
+                    <p class="use__item-descr">
                         Этот язык стилей позволяет мне создавать абсолютно любой внешний вид вашего сайта или приложения. Все ограничивается только вашей фантазией!
-                    </div>
+                    </p>
                 </div>
                 <div class="use__item">
                     <div class="use__item-img">
                         <img src="icons/skills/js.svg" alt="javascript">
                     </div>
                     <h4 class="title title_fz14 use__item-title">Java Script</h4>
-                    <div class="use__item-descr">
+                    <p class="use__item-descr">
                         Этот язык программирования позволяет оживить все что угодно: слайдеры, окна, подсказки, вкладки, получение данных от сервера и многое другое
-                    </div>
+                    </p>
                 </div>
                 <div class="use__item">
                     <div class="use__item-img">
                         <img src="icons/skills/jquery.svg" alt="jquery">
                     </div>
                     <h4 class="title title_fz14 use__item-title">Jquery</h4>
-                    <div class="use__item-descr">
+                    <p class="use__item-descr">
                         Библиотека Jquery позволит ускорить разработку. Без необходимости интегрировать в проект мы её не будем, но навык работы с ней присутствует
-                    </div>
+                    </p>
                 </div>
                 <div class="use__item">
                     <div class="use__item-img">
                         <img src="icons/skills/react.svg" alt="react">
                     </div>
                     <h4 class="title title_fz14 use__item-title">React</h4>
-                    <div class="use__item-descr">
+                    <p class="use__item-descr">
                         Эта библиотека позволяет создавать web-приложения. Мы можем создать максимально интерактивный продукт именно под ваши цели
-                    </div>
+                    </p>
                 </div>
                 <div class="use__item">
                     <div class="use__item-img">
                         <img src="icons/skills/node.js.svg" alt="node.js">
                     </div>
                     <h4 class="title title_fz14 use__item-title">Node.js</h4>
-                    <div class="use__item-descr">
+                    <p class="use__item-descr">
                         Эта платформа позволяет создавать бэкенд для вашего продукта - “мозги”, которые будут выполнять действия, которые пользователь не видит
-                    </div>
+                    </p>
                 </div>
                 <div class="use__item">
                     <div class="use__item-img">
                         <img src="icons/skills/mongo.db.svg" alt="mongo.db">
                     </div>
                     <h4 class="title title_fz14 use__item-title">Mongo.db</h4>
-                    <div class="use__item-descr">
+                    <p class="use__item-descr">
                         Это нереляционная база данных, которая будет хранить данные вашего сайта или приложения
-                    </div>
+                    </p>
                 </div>
             </div>
             <div class="use__wrapper-exp">
@@ -416,7 +416,7 @@
         <div class="container">
             <div class="contacts__wrapper">
                 <div class="contacts__photo">
-                    <img src="img/main_photo.jpg" alt="me" class="grid-item__img">
+                    <img src="img/main_photo.jpg" alt="me" class="contacts__img">
                 </div>
                 <div class="contacts__descr">
                     <h2 class="title title_fz16 contacts__subtitle">Контакты</h2>
@@ -442,11 +442,11 @@
 
                     <form action="#" class="contacts__form">
                         <div class="contacts__input">
-                            <input name="name" id="name" type="text">
+                            <input required name="name" id="name" type="text">
                             <label for="name">Ваше имя</label>
                         </div>
                         <div class="contacts__input">
-                            <input name="email" id="email" type="email">
+                            <input required name="email" id="email" type="email">
                             <label for="email">Ваша почта</label>
                         </div>
 
@@ -454,8 +454,12 @@
                             <textarea name="text" id="text"></textarea>
                             <label for="text">Ваше сообщение</label>
                         </div>
-                        <div>
+                        <div class="contacts__triggers">
                             <button class="contacts__btn btn">Отправить сообщение</button>
+                            <div class="contacts__policy">
+                                <input required type="checkbox" checked>
+                                <span>Я согласен(а) с <a href="/policy.html">политикой конфиденциальности</a></span>
+                            </div>
                         </div>
                     </form>
                 </div>
