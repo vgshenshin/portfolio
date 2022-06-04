@@ -10,6 +10,7 @@
         &-title {
             position: relative;
             padding-left: 50px;
+            margin-bottom: 0;
             &:before {
                 content: '';
                 position: absolute;
@@ -24,15 +25,16 @@
         }
         ul {
             list-style-type: none;
+            margin-bottom: 0;
             li {
                 position: relative;
                 padding-left: 50px;
                 &:after {
                     content: '';
                     width: 1px;
-                    height: calc(100% + 16px);
+                    height: calc(100% + 8px);
                     position: absolute;
-                    top: -16px;
+                    top: -8px;
                     left: 7px;
                     background-color: #000;
                 }
