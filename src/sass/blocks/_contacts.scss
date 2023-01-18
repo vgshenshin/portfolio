@@ -29,6 +29,9 @@
     }
     &__link {
         margin-right: 25px;
+        &:hover {
+            text-decoration: none;
+        }
         img {
             max-width: 30px;
             max-height: 30px;
