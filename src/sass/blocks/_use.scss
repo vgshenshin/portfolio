@@ -34,7 +34,7 @@
         grid-auto-rows: minmax(70px, auto);
         row-gap: 30px;
         column-gap: 45px;
-
+        display: none;
     }
     &__item-exp {
         display: grid;
