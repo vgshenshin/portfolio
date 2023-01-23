@@ -27,3 +27,18 @@ const percents = document.querySelectorAll('.use__percent-exp'),
 percents.forEach( (item, i) => {
     lines[i].style.width = item.innerHTML;
 });
+
+const works = document.querySelectorAll('.portfolio__wrapper img');
+
+works.forEach(img => {
+    img.addEventListener('mouseover', (e) => {
+        e.target.style.opacity = '1';
+        e.target.nextElementSibling.classList.add('d-none');
+    });
+    
+    img.addEventListener('mouseout', (e) => {
+        e.target.style.opacity = null;
+        e.target.nextElementSibling.classList.remove('d-none');
+    });
+});
+

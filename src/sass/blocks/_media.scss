@@ -60,7 +60,7 @@
         max-width: 720px;
     }
     .promo {
-        background: url('../img/main_bg_shadow.jpg') no-repeat 0%/cover;
+        background: url('../img/main_bg_shadow.jpg') no-repeat 50%/cover;
     }
     .title {
         &_fz16 + .title {
@@ -244,9 +244,6 @@
     }
     .promo {
         background: url('../img/main_bg_shadow.jpg') no-repeat 55%/cover;
-        &__btns {
-            margin-top: 180px;
-        }
     }
     .grid-container {
         grid-template: 340px auto / 1fr;
